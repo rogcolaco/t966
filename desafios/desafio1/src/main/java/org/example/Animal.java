@@ -9,6 +9,7 @@ import java.util.stream.Stream;
 @Getter
 @Setter
 @ToString
+@Builder
 public class Animal {
     private double altura;
     private int qtd_patas;
